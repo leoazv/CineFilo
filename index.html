@@ -1,1 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>CineFilo – Filmes & Filosofia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="topo">
+        <div class="topo-conteudo">
+            <div class="logo">
+                <span class="logo-simbolo">Φ</span>
+                <span class="logo-texto">CineFilo</span>
+            </div>
+            <p class="topo-subtitulo">Filmes, ideias e perguntas que não saem da cabeça.</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Destaque principal -->
+        <section class="hero">
+            <div class="hero-texto">
+                <h1>The Matrix (1999)</h1>
+                <p class="hero-tagline">Realidade, simulacro e o desconforto de acordar do sonho.</p>
+
+                <ul class="hero-tags">
+                    <li>#realidade</li>
+                    <li>#livre-arbítrio</li>
+                    <li>#simulação</li>
+                </ul>
+
+                <p class="hero-descricao">
+                    Em <strong>The Matrix</strong>, a rotina de Neo é interrompida quando ele descobre que o mundo
+                    em que vive pode ser apenas uma construção. Um convite perfeito para discutir
+                    aparência e essência, mito da caverna, consciência crítica e o preço da liberdade.
+                </p>
+            </div>
+
+            <div class="hero-video-wrapper">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/vKQi3bBA1y8"
+                        title="The Matrix (1999) Official Trailer #1"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Catálogo de filmes filosóficos -->
+        <section class="secao-catalogo">
+            <header class="secao-cabecalho">
+                <h2>Filmes & Documentários Filosóficos</h2>
+                <p>Uma curadoria para pensar Sócrates, Platão, Descartes, Agostinho e a existência contemporânea.</p>
+            </header>
+
+            <div class="grade-videos">
+                <!-- Sócrates -->
+                <article class="card-filme">
+                    <a href="https://www.youtube.com/watch?v=GncGztvRM0c" target="_blank" rel="noopener noreferrer">
+                        <div class="card-thumb-wrapper">
+                            <img
+                                src="https://img.youtube.com/vi/GncGztvRM0c/maxresdefault.jpg"
+                                alt="Sócrates, de Roberto Rossellini">
+                            <span class="card-tag">Sócrates</span>
+                        </div>
+                        <div class="card-conteudo">
+                            <h3>Sócrates (1971) – Rossellini</h3>
+                            <p>
+                                A vida e o julgamento do filósofo ateniense em plena crise da pólis.
+                                Ideal para discutir maiêutica, ética, ironia e o compromisso com a verdade.
+                            </p>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Cartesius / Descartes -->
+                <article class="card-filme">
+                    <a href="https://www.youtube.com/watch?v=ocrBTmEoeVU" target="_blank" rel="noopener noreferrer">
+                        <div class="card-thumb-wrapper">
+                            <img
+                                src="https://img.youtube.com/vi/ocrBTmEoeVU/maxresdefault.jpg"
+                                alt="Cartesius (Descartes, 1974)">
+                            <span class="card-tag">Descartes</span>
+                        </div>
+                        <div class="card-conteudo">
+                            <h3>Cartesius (1974) – Descartes</h3>
+                            <p>
+                                Um retrato do nascimento da filosofia moderna: dúvida metódica, método,
+                                sujeito e o famoso “penso, logo existo”.
+                            </p>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Santo Agostinho -->
+                <article class="card-filme">
+                    <a href="https://www.youtube.com/watch?v=Wf92q1Z4RXM" target="_blank" rel="noopener noreferrer">
+                        <div class="card-thumb-wrapper">
+                            <img
+                                src="https://img.youtube.com/vi/Wf92q1Z4RXM/maxresdefault.jpg"
+                                alt="Filme Santo Agostinho, de Roberto Rossellini">
+                            <span class="card-tag">Agostinho</span>
+                        </div>
+                        <div class="card-conteudo">
+                            <h3>Santo Agostinho – Rossellini</h3>
+                            <p>
+                                Conversão, interioridade, tempo e desejo. Um ponto de passagem entre o
+                                pensamento clássico e o cristianismo filosófico.
+                            </p>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- A República de Platão -->
+                <article class="card-filme">
+                    <a href="https://www.youtube.com/watch?v=7l3feAVjJxI" target="_blank" rel="noopener noreferrer">
+                        <div class="card-thumb-wrapper">
+                            <img
+                                src="https://img.youtube.com/vi/7l3feAVjJxI/maxresdefault.jpg"
+                                alt="A República de Platão - Documentário dublado">
+                            <span class="card-tag">Platão</span>
+                        </div>
+                        <div class="card-conteudo">
+                            <h3>A República de Platão – Documentário</h3>
+                            <p>
+                                Justiça, cidade ideal, mito da caverna e o papel do filósofo na pólis.
+                                Um guia visual para discutir política e educação.
+                            </p>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Mr. Nobody -->
+                <article class="card-filme">
+                    <a href="https://www.youtube.com/watch?v=Q-xsP-ydH-U" target="_blank" rel="noopener noreferrer">
+                        <div class="card-thumb-wrapper">
+                            <img
+                                src="https://img.youtube.com/vi/Q-xsP-ydH-U/maxresdefault.jpg"
+                                alt="Sr. Ninguém / Mr. Nobody – trailer legendado">
+                            <span class="card-tag">Existência</span>
+                        </div>
+                        <div class="card-conteudo">
+                            <h3>Sr. Ninguém (Mr. Nobody)</h3>
+                            <p>
+                                Escolhas, tempo, múltiplas vidas possíveis. Excelente para discutir
+                                identidade, contingência e responsabilidade em um universo de bifurcações.
+                            </p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© <span id="ano-atual"></span> CineFilo – Curadoria de cinema & filosofia.</p>
+    </footer>
+
+    <script>
+        // Atualiza ano no rodapé automaticamente
+        document.getElementById('ano-atual').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
 
